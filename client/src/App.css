@@ -1,0 +1,48 @@
+
+
+.App--container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* Justify-content alinha a div filha no centro */
+  justify-content: center;
+  background-image: url("assents/img/Fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: 2500px 1500px;
+  /* Nao deixa deformar a imagem */
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+
+}
+.register--container {
+  /* padding define uma a distância entre o conteúdo de um elemento e suas bordas. 
+  É um atalho que evita definir uma distância para cada lado separadamente */
+  padding: 10px 20px;
+  /* padding define uma a distância entre o conteúdo de um elemento e suas bordas. */
+  border: 3px solid black;
+  /* O Border passa um conjunto de propriedas */
+  border-radius: 5px;
+  /* A border-radiuspropriedade é usada para adicionar bordas arredondadas a um elemento: */
+  margin-top: 20px;
+  /* Marbin Define a área da margem  */
+
+}
+
+.register--title{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: monospace;
+  
+
+}
+
+.register--input {
+  display: block;
+  padding: 7px 0;
+  margin: 10px auto;
+}
+
+.register--button{
+  padding: 2px 5px;
+}
